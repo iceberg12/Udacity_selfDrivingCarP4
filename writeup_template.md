@@ -26,8 +26,8 @@ The goals / steps of this project are the following:
 [binary_1]: ./output_images/binary_1.png
 [binary_2]: ./output_images/binary_2.png
 [binary_3]: ./output_images/binary_3.png
-[poly_fill_1]: ./output_images/poly_fill_1.png
-[poly_fill_2]: ./output_images/poly_fill_2.png
+[polyfit_fill_1]: ./output_images/polyfit_fill_1.png
+[polyfit_fill_2]: ./output_images/polyfit_fill_2.png
 [final_output]: ./final_output.mp4
 
 ---
