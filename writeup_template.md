@@ -1,8 +1,6 @@
-# Advanced Lane Finding
-
 ---
 
-**Advanced Lane Finding Project**
+# **Advanced Lane Finding Project**
 
 The goals / steps of this project are the following:
 
@@ -128,7 +126,7 @@ The space in between the identified lane lines is filled with green color to hig
 Here's a link to my video result in Youtube (or final_output.mp4 in this repo). 
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/5r7IEZgGCTw/maxresdefault.jpg)](
-https://youtu.be/5r7IEZgGCTw)]
+https://youtu.be/5r7IEZgGCTw)
 
 The accuracy of Radius of Curvature calculation is judged by seeing whether the radius comes close to 1 km (~ 1000 m) at the turning points. This is because the data were prepared with a car driving at this specific map location, and the author has already measured the radius physically. In my case, I did. Especially when the car goes straight, the radius jumps back to about 10km, which makes sense.
 
@@ -136,7 +134,7 @@ The accuracy of Radius of Curvature calculation is judged by seeing whether the 
 
 ### Discussion
 
-#### Briefly discuss any problems / issues you faced in your implementation of this project.  Where will your pipeline likely fail?  What could you do to make it more robust?
+#### Discuss problems in implementation of this project.  Where will it likely fail and how to make it more robust?
 
 The most important point to make the whole project good is the lane detection, and lane memory.
 
