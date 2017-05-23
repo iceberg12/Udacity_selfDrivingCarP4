@@ -14,8 +14,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./output_images/undistort_output.png
-[image2]: ./output_images/test1.jpg
+[image1]: ./output_images/distortion_removal.png
+[image2]: ./output_images/perspective_sample.jpg
 [image3]: ./output_images/binary_combo_example.jpg
 [image4]: ./output_images/warped_straight_lines.jpg
 [image5]: ./output_images/color_fit_lines.jpg
