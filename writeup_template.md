@@ -92,8 +92,13 @@ Combination of thresholded images does a great job of highlighting almost all of
 
 The S binary threshold was left out of the final combined binary image and was not used in detecting lane lines because it added extra noise to the binary image and interfered with detecting lane lines accurately. After trying Sobel x,y and magnitude and direction of Sobel gradient filters, I feel that color space thresholding is more useful, although there is a room to incorporate with the magnitude of Sobel gradient. So I use only L and B channel. My experiment output for this step is below.
 
+Test Image 1
 ![alt text][binary_1]
+
+Test Image 2
 ![alt text][binary_2]
+
+Test Image 3
 ![alt text][binary_3]
 
 A more robust approach is discussed here https://medium.com/towards-data-science/robust-lane-finding-using-advanced-computer-vision-techniques-mid-project-update-540387e95ed3.
@@ -112,6 +117,7 @@ I use the equation of radius of curvature can be found at http://mathworld.wolfr
 The space in between the identified lane lines is filled with green color to highlight the driveable area on the road. The position of the vehicle was measured by taking the average of the x intercepts of each line.
 
 ![alt text][poly_fill_1]
+
 ![alt text][poly_fill_2]
 
 ---
