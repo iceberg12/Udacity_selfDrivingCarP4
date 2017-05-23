@@ -1,6 +1,6 @@
----
+# Advanced Lane Finding
 
-# **Advanced Lane Finding Project**
+---
 
 The goals / steps of this project are the following:
 
@@ -121,11 +121,11 @@ The space in between the identified lane lines is filled with green color to hig
 
 ## Pipeline (video)
 
-### Step 5. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (wobbly lines are ok but no catastrophic failures that would cause the car to drive off the road!).
+### Step 5. Performance Review
 
 Here's a link to my video result in Youtube (or final_output.mp4 in this repo). 
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/5r7IEZgGCTw/maxresdefault.jpg)](
+[![Final Output](http://img.youtube.com/vi/5r7IEZgGCTw/maxresdefault.jpg)](
 https://youtu.be/5r7IEZgGCTw)
 
 The accuracy of Radius of Curvature calculation is judged by seeing whether the radius comes close to 1 km (~ 1000 m) at the turning points. This is because the data were prepared with a car driving at this specific map location, and the author has already measured the radius physically. In my case, I did. Especially when the car goes straight, the radius jumps back to about 10km, which makes sense.
